@@ -25,6 +25,10 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
+.custom-margin {
+	margin-bottom: 5px;
+}
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
@@ -1552,10 +1556,22 @@ input, select, textarea {
 
 		.image img {
 			display: block;
+			
+			/* max-width: 100%;
+    		max-height: 100%; */
+			
 			width: 100%;
+			/* width:auto; */
 		}
 
 		.image.fit {
+			/* height: 195px;
+			width: 260px; */
+			/* display: flex;
+			height: 195px;
+			width: 260px;
+    		justify-content: center; 
+    		align-items: center; */
 			display: block;
 			width: 100%;
 		}
